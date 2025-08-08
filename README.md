@@ -1,52 +1,50 @@
-🎬 Movie Recommendation System
-A collaborative filtering movie recommendation system built using the MovieLens 100K dataset.
-This project implements user-based, item-based, and matrix factorization (SVD) methods to recommend movies to users.
+# 🎬 Movie Recommendation System
 
-📌 Features
-User-based Collaborative Filtering – recommends based on similar user preferences.
+A collaborative filtering movie recommendation system built using the **MovieLens 100K dataset**.
+This project implements **user-based**, **item-based**, and **matrix factorization (SVD)** methods to recommend movies to users.
 
-Item-based Collaborative Filtering – recommends similar movies to those the user liked.
+## 📌 Features
 
-Matrix Factorization (SVD) – uncovers hidden patterns in ratings.
+* **User-based Collaborative Filtering** – recommends based on similar user preferences.
+* **Item-based Collaborative Filtering** – recommends similar movies to those the user liked.
+* **Matrix Factorization (SVD)** – uncovers hidden patterns in ratings.
+* **Evaluation with Precision\@K** – measures recommendation accuracy.
 
-Evaluation with Precision@K – measures recommendation accuracy.
+## 📂 Dataset
 
-📂 Dataset
-Source: MovieLens 100K Dataset
+* **Source:** [MovieLens 100K Dataset](https://grouplens.org/datasets/movielens/100k/)
+* Contains 100,000 ratings from 943 users on 1,682 movies.
 
-Contains 100,000 ratings from 943 users on 1,682 movies.
+## 🛠 Tools & Libraries
 
-🛠 Tools & Libraries
-Python
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
 
-Pandas
+## 🚀 How to Run
 
-NumPy
+1. Clone the repository:
 
-Scikit-learn
+   ```bash
+   git clone https://github.com/mohameddmansurr/movie-recommendation-system.git
+   cd movie-recommendation-system
+   ```
+2. Install dependencies:
 
-🚀 How to Run
-Clone the repository:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Open the Jupyter Notebook:
 
-bash
-Copy
-Edit
-git clone https://github.com/mohameddmansurr/movie-recommendation-system.git
-cd movie-recommendation-system
-Install dependencies:
+   ```bash
+   jupyter notebook "Movie Recommendation System.ipynb"
+   ```
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Open the Jupyter Notebook:
+## 📊 Example Output
 
-bash
-Copy
-Edit
-jupyter notebook "Movie Recommendation System.ipynb"
-📊 Example Output
-User ID	Recommended Movies
-5	Toy Story, Star Wars, The Godfather
-10	Pulp Fiction, Shawshank Redemption, Silence of the Lambs
+| User ID | Recommended Movies                                       |
+| ------- | -------------------------------------------------------- |
+| 5       | Toy Story, Star Wars, The Godfather                      |
+| 10      | Pulp Fiction, Shawshank Redemption, Silence of the Lambs |
 
